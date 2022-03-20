@@ -10,6 +10,7 @@ fun main() {
     val scanner = Scanner(System.`in`)
     val a: Int = scanner.nextInt()
     val b: Int = scanner.nextInt()
+    scanner.close()
 
     print(subtraction(a, b))
 }

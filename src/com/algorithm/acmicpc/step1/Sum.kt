@@ -11,6 +11,7 @@ fun main() {
 
     val a: Int = sc.nextInt()
     val b: Int = sc.nextInt()
+    sc.close()
 
     print(sum(a, b))
 }
