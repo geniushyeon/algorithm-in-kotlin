@@ -6,6 +6,7 @@ fun main() {
 
     val scanner = Scanner(System.`in`)
     val n = scanner.nextInt()
+    scanner.close()
 
     for (i in 1 .. n)
         println(i)
